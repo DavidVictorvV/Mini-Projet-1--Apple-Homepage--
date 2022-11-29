@@ -1,0 +1,162 @@
+/* input[type="checkbox"] {
+  display: none;
+}
+
+.tabs {
+  display: grid;
+  grid-template-columns: repeat(3, 209.56px);
+
+  grid-template-areas:
+    "explore servic val-apple"
+    "explore cont abt-apple";
+}
+.explore {
+  grid-area: explore;
+}
+
+.servic {
+  grid-area: servic;
+}
+
+.cont {
+  grid-area: cont;
+}
+
+.val-apple {
+  grid-area: val-apple;
+}
+
+.abt-apple {
+  grid-area: abt-apple;
+  margin-top: -60px;
+}
+
+.footer {
+  margin: 0 auto;
+  max-width: 980px;
+  padding: 0 22px;
+  padding-left: max(22px, env(safe-area-inset-left));
+  padding-right: max(22px, env(safe-area-inset-right));
+}
+
+.tab-ul {
+  margin: 0;
+  padding: 0;
+}
+
+.tab li a:hover {
+  text-decoration: underline;
+}
+
+.tab li {
+  margin-bottom: 9.6px;
+}
+
+.title {
+  color: black;
+}
+
+.curele {
+  border-bottom: 1px solid #d2d2d7;
+}
+.footer-shop {
+  border-bottom: 1px solid #d2d2d7;
+}
+
+.footer-section {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+}
+.footer-legal {
+  display: flex;
+}
+.footer-legal > * {
+  margin-right: 30px;
+} */
+@media screen and (min-width: 832px) {
+  input[type="checkbox"] {
+    display: none;
+  }
+
+  .tabs {
+    display: grid;
+    grid-template-columns: repeat(3, 209.56px);
+
+    grid-template-areas:
+      "explore servic val-apple"
+      "explore cont abt-apple";
+  }
+  .explore {
+    grid-area: explore;
+  }
+
+  .servic {
+    grid-area: servic;
+  }
+
+  .cont {
+    grid-area: cont;
+  }
+
+  .val-apple {
+    grid-area: val-apple;
+  }
+
+  .abt-apple {
+    grid-area: abt-apple;
+    margin-top: -60px;
+  }
+
+  .footer {
+    margin: 0 auto;
+    max-width: 980px;
+    padding: 0 22px;
+    padding-left: max(22px, env(safe-area-inset-left));
+    padding-right: max(22px, env(safe-area-inset-right));
+  }
+
+  .tab-ul {
+    margin: 0;
+    padding: 0;
+  }
+
+  .tab li a:hover {
+    text-decoration: underline;
+  }
+
+  .tab li {
+    margin-bottom: 9.6px;
+  }
+
+  .title {
+    color: black;
+  }
+
+  .curele {
+    border-bottom: 1px solid #d2d2d7;
+  }
+  .footer-shop {
+    border-bottom: 1px solid #d2d2d7;
+    margin-bottom: 1px;
+    padding-bottom: 8px;
+  }
+
+  .footer-section {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .footer-locale {
+    margin-top: 0px;
+  }
+  .footer-legal {
+    margin: 5px;
+    display: flex;
+    align-items: center;
+  }
+  .footer-legal > * {
+    margin-right: 30px;
+  }
+}

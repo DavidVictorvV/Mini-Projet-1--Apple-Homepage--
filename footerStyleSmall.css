@@ -1,0 +1,85 @@
+@media screen and (max-width: 832px) {
+  #content {
+    display: grid;
+    grid-auto-rows: 398px;
+  }
+  .footer-item {
+    border-bottom: 1px solid #d2d2d7;
+  }
+
+  .footer-nav {
+    padding-top: 20px;
+  }
+
+  .curele {
+    padding-top: 17px;
+    padding-bottom: 11px;
+  }
+
+  input {
+    position: absolute;
+    opacity: 0;
+    z-index: -1;
+  }
+  .row {
+    display: flex;
+  }
+  .row .col {
+    flex: 1;
+  }
+  .row .col:last-child {
+    margin-left: 1em;
+  }
+  /* Accordion styles */
+  .tabs {
+    overflow: hidden;
+  }
+  .tab {
+    width: 100%;
+    overflow: hidden;
+  }
+  .tab-label {
+    display: flex;
+    justify-content: space-between;
+    font-weight: bold;
+  }
+  .tab-label:hover {
+  }
+  .tab-label::after {
+    content: "+";
+    color: #424245;
+    width: 1em;
+    height: 1em;
+    text-align: center;
+    transition: all 0.35s;
+  }
+  .tab-content {
+    max-height: 0;
+    transition: all 0.35s;
+  }
+  .tab-close {
+    display: flex;
+    justify-content: flex-end;
+  }
+  input:checked + .tab-label::after {
+    transform: rotate(45deg) scale(1.08);
+  }
+  input:checked ~ .tab-content {
+    max-height: 100vh;
+  }
+
+  .tab-ul {
+    margin: 0;
+    padding: 0;
+    padding-top: 5px;
+    padding-bottom: 16px;
+  }
+
+  .tab li {
+    padding: 6px 14px;
+  }
+
+  .tab li:hover {
+    text-decoration: underline;
+  }
+}

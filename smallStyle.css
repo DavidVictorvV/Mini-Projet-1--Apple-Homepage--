@@ -1,0 +1,84 @@
+@media screen and (max-width: 735px) {
+  #content {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(9, 540px) 407px;
+    grid-gap: 10px;
+    margin: 0 auto;
+  }
+
+  #content .main-nav {
+    height: 48px;
+  }
+
+  .u-list-small {
+    cursor: default;
+    margin: 0 -8px;
+    width: auto;
+    display: flex;
+    height: 48px;
+    align-items: center;
+    padding: 0;
+  }
+
+  .u-list-small li:first-child {
+    margin-right: 47%;
+  }
+
+  .u-list {
+    justify-content: start;
+    flex-direction: row-reverse;
+  }
+  .iPhone14Pro {
+    background-image: url(./imgs/small/hero_iphone14pro__e5xbgo5ffhg2_small.jpg);
+  }
+  .iPhone14 {
+    background-image: url(./imgs/small/hero_iphone14_preorder__c4g2wjzuugqe_small.jpg);
+  }
+  .watchUltra {
+    background-image: url(./imgs/small/hero_apple_watch_ultra__dtz0f3e8oscy_small.jpg);
+  }
+  .airpodsPro {
+    background-image: url(./imgs/small/promo_airpods_pro_avail__gaxggskofx6y_small.jpg);
+  }
+  .watch8 {
+    background-image: url(./imgs/small/promo_apple_watch_series_8__ch7rexplmihe_small.jpg);
+  }
+  .watchSE {
+    background-image: url(./imgs/small/promo_apple_watch_se__f9702l6odgi2_small.jpg);
+  }
+  .airpods {
+    background-image: url(./imgs/small/tile_airpods__fuv6vgn42y2q_small.jpg);
+  }
+  .macBook {
+    background-image: url(./imgs/small/promo_macbookair__fywl7i82fueu_small.png);
+  }
+  .airTag {
+    background-image: url(./imgs/small/promo_airtag__e6b73a64nno2_small.jpg);
+  }
+  .headline {
+    font-size: 32px;
+    line-height: 1.125;
+    font-weight: 600;
+    letter-spacing: 0.004em;
+    font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica",
+      "Arial", sans-serif;
+    margin: 0;
+
+    padding-top: 37px;
+  }
+  .subhead {
+    font-size: 19px;
+    line-height: 1.21053;
+    font-weight: 400;
+    letter-spacing: 0em;
+    font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica",
+      "Arial", sans-serif;
+    margin-top: 4px;
+    margin-bottom: 21px;
+  }
+
+  .d-small-none {
+    display: none;
+  }
+}
